@@ -157,9 +157,21 @@ color: #2196F3;
 }
 /* Секція 1 */
 .hero{
-     background-color: #2F303A;
-     padding-top: 200px;
-     padding-bottom: 200px;
+      background-color: #2F303A;
+      padding-top: 200px;
+      padding-bottom: 200px;
+      max-width: 1600px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 600px;
+      outline: 1px solid black;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: rgba(47, 48, 58, 0.4); url(./img/img/new_photo.jpg);
+      
+      left: 0px;
+      top: 80px;
 }
 
 .hero-title{
