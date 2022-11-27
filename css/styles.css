@@ -354,6 +354,22 @@ ul{
 .desc{
 
 }
+.icons-main{
+      display: flex;
+}
+.icons-sub{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 270px;
+            height: 120px;
+            background-color: #F5F4FA;
+            border-radius: 4px;
+            margin-right: 30px;
+}
+.sub{
+      margin-right: 0;
+}
 /* Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. */
 
 /* ПУНКТУАЛЬНІСТЬ */
