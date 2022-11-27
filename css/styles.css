@@ -355,17 +355,18 @@ ul{
 
 }
 .icons-main{
-      display: flex;
+       display: flex;
 }
 .icons-sub{
        display: flex;
        align-items: center;
        justify-content: center;
        width: 270px;
-            height: 120px;
-            background-color: #F5F4FA;
-            border-radius: 4px;
-            margin-right: 30px;
+       height: 120px;
+       background-color: #F5F4FA;
+       border-radius: 4px;
+       /* margin-right: 30px; */
+       margin-bottom: 30px;
 }
 .sub{
       margin-right: 0;
@@ -386,8 +387,8 @@ ul{
 /* Секція 3 */
 /* Чим ми займаємося */
 .section-work {
-      padding-top: 0px;
-      padding-bottom: 94px;
+       padding-top: 0px;
+       padding-bottom: 94px;
      }
 
      .employment{
@@ -411,7 +412,7 @@ ul{
 }
 /* team */
 .team-employee {
-      display: flex;
+       display: flex;
 
 }
 .team-employee li:not(:last-child){
@@ -419,8 +420,8 @@ ul{
 }
 
 .employee-info{
-      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-      border-radius: 0px 0px 4px 4px;
+       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+       border-radius: 0px 0px 4px 4px;
       
 
 }
