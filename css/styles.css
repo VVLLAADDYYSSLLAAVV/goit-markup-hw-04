@@ -553,8 +553,21 @@ ul{
       display: flex;
       align-items: center;
       flex-direction: column;
+      margin-left: 70px;
+      margin-top: 10px;
+}
+.join-footer{
+      display: flex;
 }
 .join-title{
+       font-style: normal;
+       font-weight: 700;
+       font-size: 1.14;
+       line-height: 16px;
+       letter-spacing: 0.03em;
+       text-transform: uppercase;
+       color: #FFFFFF;
+       margin-bottom: 20px;
 
 }
 .footer-soc-list{
