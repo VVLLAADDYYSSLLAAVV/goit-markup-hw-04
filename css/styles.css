@@ -169,7 +169,8 @@ color: #2196F3;
       background-repeat: no-repeat;
       background-size: cover;
       outline: 1px solid black;
-      background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../img/img/new_photo.jpg);
+      background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../img/img/new_photo.jpg);
+      
       
       left: 0px;
       top: 80px;
