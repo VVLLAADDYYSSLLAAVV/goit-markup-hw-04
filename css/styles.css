@@ -135,8 +135,13 @@ ul{
       margin-right: 50px;
 
 }
+.header-icons{
+      margin-right: 10px;
+}
 .link-email {
       color: #212121;
+      display: flex;
+      align-items: center;
 }
 .link-email:hover,
 .link-email:focus{
@@ -145,8 +150,16 @@ ul{
 
 .link-phone {
       color: #757575;
+      display: flex;
+      align-items: center;
 }
-
+.site-info .link-email:hover,
+.site-info .link-email:focus,
+.site-info .link-phone:hover,
+.site-info .link-phone:focus{
+      fill: #2196F3;
+      color: #2196F3;
+}
 .section {
       
       padding-top: 94px;
@@ -332,28 +345,7 @@ ul{
       margin-right: 30px;
 
 }
-.aside::before{
-      display: block;
-      content: "";
-      height: 120px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      background: #F5F4FA;
-      border-radius: 4px;
-}
-.icon-antenna {
-     background-position: center;
-}
-.icon-clock::before{
-       background-image: url(..img/img/img_9); 
-}
-.icon-diagram::before{
-      background-image: url(..img/img/img_10);
-}
-.icon-astronaut::before{
-      background-image: url(..img/img/img_11); 
-}
+
 /* Особливості */
 .subtitle{
 
