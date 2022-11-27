@@ -164,11 +164,12 @@ color: #2196F3;
       margin-left: auto;
       margin-right: auto;
       height: 600px;
-      outline: 1px solid black;
+      
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-image: rgba(47, 48, 58, 0.4); url(./img/img/new_photo.jpg);
+      outline: 1px solid black;
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../img/img/new_photo.jpg);
       
       left: 0px;
       top: 80px;
@@ -334,8 +335,28 @@ color: #2196F3;
      margin-right: 30px;
 
 }
-.aside{
+.aside::before{
+     display: block;
+     content: "";
+     height: 120px;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     background: #F5F4FA;
+     border-radius: 4px;
 
+}
+.icon-antenna::before{
+      background-image: url(..img/img/img_8.svg);
+}
+.icon-clock::before{
+       background-image: url(..img/img/img_9); 
+}
+.icon-diagram::before{
+      background-image: url(..img/img/img_10);
+}
+.icon-astronaut::before{
+      background-image: url(..img/img/img_11); 
 }
 /* Особливості */
 .subtitle{
